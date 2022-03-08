@@ -1,4 +1,4 @@
-#Maverick Media 
+# Maverick Media 
 
 This is Maverick Media's official website.
 
