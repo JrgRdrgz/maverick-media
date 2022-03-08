@@ -1,0 +1,63 @@
+:root{
+    --primary:#0064b1;
+    --secondary:#f46f19;
+    --light: #EEEEEE;
+    --dark: #212121;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--primary);
+    padding: 16px 32px;
+    border-bottom: 3px solid var(--secondary);
+}
+
+.nav-container{
+    position: static;
+    max-width: 1350px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mavmedialogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+}
+
+.menu{
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: center;
+    margin: 0 -16px;
+}
+
+.menu a{
+    color: white;
+    margin: 0 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 8px 10px;
+    border-radius: 99px;
+}
+
+.menu a:hover{
+    background-color: var(--secondary);
+}
+

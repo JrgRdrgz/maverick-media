@@ -1,0 +1,87 @@
+.lofi{
+    color: white;
+    margin-top: 250px;
+    text-align: center;
+    font-family: serif;
+    font-size: 40px;
+    line-height: normal;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.aboutus{
+    color: white;
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50em;
+}
+
+.members{
+    margin-top: 45px;
+}
+
+.membertitle{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+}
+ul{
+    position: static;
+    margin-top: 50px;
+    color: white;
+    background: #ccc;
+    height: 600px;
+}
+
+ul li{
+    list-style: none;
+    position: relative;
+    width: 20%;
+    height:100%;
+    border-right: 1px solid #000;
+    float: left;
+    box-sizing: border-box;
+    transition: .5x;
+    text-align: center;
+    overflow: hidden;
+}
+
+ul:hover li{
+    width: 17.5%;
+}
+
+
+ul li:nth-child(1){
+    background: url("../assets/MakaylaMiller.jpeg");
+    background-size: cover;
+    background-position: top;
+}
+
+ul li:nth-child(2){
+    background: url();
+    background-size: cover;
+    background-position: center;
+}
+
+ul li:hover{
+    width: 30%; 
+}
+
+ul li .content{
+   position: absolute;
+   bottom: -100%;
+   left: 0;
+   width: 100%;
+   background: rgba(0, 0, 0, 0.9);
+   margin-bottom: 10px;
+}
+
+ul li:hover .content{
+    bottom:0;
+    transition: .2s;
+}
