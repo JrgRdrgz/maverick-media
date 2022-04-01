@@ -1,7 +1,8 @@
 import React from 'react'
 import "../styles/about.css";
+
 function about() {
-  return (
+return (
     <div>
         <div>
             <p className="lofi">About Us</p>
@@ -23,37 +24,41 @@ function about() {
             <ul>
                 <li>
                     <div className="content">
-                        <h1 className="membertitle">Member's Title</h1>
-                        <h2>Members Name</h2>
-                        <p>This is going to be a description of the member.</p>
+                        <h1 className="membertitle">Maverick Media president</h1>
+                        <h2>Makayla Miller</h2>
+                        <p>Hello! My name is Makayla &#39;&#39;Kayla&#39;&#39; Miller and I am a junior at University of Texas-Arlington and I am a Broadcasting Major. After I graduate, I would like to pursue a career in sports media and work for ESPN one day.</p>
                     </div>
                 </li>
+
                 <li>
                     <div className="content">
-                        <h1 className="membertitle">Member's Title</h1>
-                        <h2>Members Name</h2>
-                        <p>This is going to be a description of the member</p>
+                        <h1 className="membertitle">Secretary</h1>
+                        <h2>Jeanette</h2>
+                        <p>Hey y&#39;all! My names Jeanette and I am a junior broadcast major. In high school I would produce and anchor the morning announcements and thats how my love for broadcast started. I still don&#39;t know what type of broadcast field I want to go to but I hope we can all figure it out together!</p>
                     </div>
                 </li>
+
                 <li>
                     <div className="content">
-                        <h1 className="membertitle">Member's Title</h1>
-                        <h2>Members Name</h2>
-                        <p>This is going to be a description of the member</p>
+                        <h1 className="membertitle">Faculty Advisor</h1>
+                        <h2>LaDonna Aiken</h2>
+                        <p>LaDonna Aiken serves as the faculty advisor for Maverick Media. She is a Broadcast Specialist in the Department of Communication at UTA. She provides experiential and service learning opportunities to students in the field of broadcast and video production, drawing on her experiences as a military broadcaster and freelance video producer.</p>
                     </div>
                 </li>
+                
                 <li>
                     <div className="content">
-                        <h1 className="membertitle">Member's Title</h1>
-                        <h2>Members Name</h2>
-                        <p>This is going to be a description of the member</p>
+                        <h1 className="membertitle">Event Coordinator</h1>
+                        <h2>Ronald Everett</h2>
+                        <p>Ronald is a Junior pursuing a Bachelor of Arts in Broadcasting. Ronald chose broadcasting as a major because he enjoys storytelling and giving a voice to the voiceless. In his free time, he enjoys flying his drone and capturing unique moments through street photography.</p>
                     </div>
                 </li>
+                
                 <li>
                     <div className="content">
-                        <h1 className="membertitle">Member's Title</h1>
-                        <h2>Members Name</h2>
-                        <p>This is going to be a description of the member</p>
+                        <h1 className="membertitle">Treasurer</h1>
+                        <h2>Clayton Watson</h2>
+                        <p>Clayton Watson is a sophomore in the communications department. As he is from Austin, he tries his best to let everyone know that he&#39;s from Austin all the time. It&#39;s kind of their thing. Clay has changed his major six times, making grave enemies with the office of the registrar. He&#39;s proud to serve on the board for the Maverick Media Club and looks forward to the rest of the great events they have planned for the year!</p>
                     </div>
                 </li>
                 

@@ -63,7 +63,25 @@ ul li:nth-child(1){
 }
 
 ul li:nth-child(2){
-    background: url();
+    background: url("../assets/images/img3.png");
+    background-size: cover;
+    background-position: center;
+}
+
+ul li:nth-child(3){
+    background: url("../assets/images/img4.png");
+    background-size: cover;
+    background-position: center;
+}
+
+ul li:nth-child(4){
+    background: url("../assets/images/img2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+ul li:nth-child(5){
+    background: url("../assets/images/img.png");
     background-size: cover;
     background-position: center;
 }
