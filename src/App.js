@@ -6,6 +6,7 @@ import Homepage from './pages/homepage';
 import Media from './pages/media';
 import About from './pages/about';
 import Contact from './pages/contact';
+import Footer from './pages/footer';
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="about" element={<About/>}/>
           <Route path="contact" element={<Contact/>}/>
         </Routes>
+        <Footer/>
       </Router>
     </div>
   );

@@ -10,9 +10,12 @@ function livestream() {
 
         <div id="video-container">
             <iframe width="853" height="505" src="https://www.youtube.com/embed/5qap5aO4i9A?&autoplay=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+            
         </div>
     </div>
   )
 }
 
 export default livestream
+
+//           <iframe width="350px" height="505px" src="https://www.youtube.com/live_chat?v=5qap5aO4i9A&embed_domain=localhost:3000/livestream" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>

@@ -1,0 +1,14 @@
+:root{
+    --primary:#0064b1;
+    --secondary:#f46f19;
+    --light: #EEEEEE;
+    --dark: #212121;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: var(--primary)
+}
