@@ -11,7 +11,7 @@ body{
       url("assets/utatower.png");
       
   background-repeat: no-repeat;
-  background-position-y: 225px;
+  background-position-y: 0px;
   background-attachment: fixed;
   background-size: cover; 
 }

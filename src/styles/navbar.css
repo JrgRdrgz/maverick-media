@@ -17,9 +17,8 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: var(--primary);
-    padding: 16px 32px;
-    border-bottom: 3px solid var(--secondary);
+    background: rgba(0,0,0,0.6);
+    padding: 25px 32px;
 }
 
 .nav-container{
@@ -34,10 +33,13 @@
 
 .mavmedialogo{
     display: block;
-    margin-left: auto;
+    margin-left: 50;
     margin-right: auto;
-    width: 150px;
-    height: 150px;
+    width: 90px;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    border-radius: 50%;
 }
 
 .menu{
@@ -58,6 +60,6 @@
 }
 
 .menu a:hover{
-    background-color: var(--secondary);
+    background-color: var(--primary);
 }
 

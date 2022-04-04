@@ -1,5 +1,5 @@
 import React from "react";
-import MavMediaLogo from "../assets/MaverickMediaLogo.jpg";
+import Mav from "../assets/Mav.png";
 import {Link} from "react-router-dom";
 import "../styles/navbar.css";
 
@@ -17,7 +17,7 @@ function navbar() {
                 <Link to='/blog'>Blog</Link>
             </div>
         </div>
-        <img className="mavmedialogo"src={MavMediaLogo}/>
+        <img className="mavmedialogo"src={Mav}/>
     </div>
   )
 }
