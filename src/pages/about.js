@@ -5,7 +5,7 @@ function about() {
 return (
     <div>
         <div>
-            <p className="lofi">About Us</p>
+            <p className="lofi">Meet Our Team</p>
         </div>
 
         <div>
@@ -59,6 +59,14 @@ return (
                         <h1 className="membertitle">Treasurer</h1>
                         <h2>Clayton Watson</h2>
                         <p>Clayton Watson is a sophomore in the communications department. As he is from Austin, he tries his best to let everyone know that he&#39;s from Austin all the time. It&#39;s kind of their thing. Clay has changed his major six times, making grave enemies with the office of the registrar. He&#39;s proud to serve on the board for the Maverick Media Club and looks forward to the rest of the great events they have planned for the year!</p>
+                    </div>
+                </li>
+
+                <li>
+                    <div className="content">
+                        <h1 className="membertitle">Vice president</h1>
+                        <h2>Neemekh Mudvari</h2>
+                        <p>Neemekh was born in Denver, Colorado, but grew up in Mexico, and Nepal. He is in his sophomore year at the University of Texas at Arlington. After living in multiple countries, he settled in Texas four years ago. For the first few months, he faced the hardships of living without his parents and learning a new language and culture. He used his knowledge to advocate for others by developing an “English as a Second Language Library” inside his high school. He volunteered to teach Spanish to teachers and staff, giving them language tools to better support students like him. He&#39;s currently working towards a bachelor&#39;s degree in Broadcasting and one in Advertising with a minor in Business Administration.</p>
                     </div>
                 </li>
                 

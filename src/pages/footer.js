@@ -5,18 +5,30 @@ import twitter from '../assets/twitter.png';
 import instagram from '../assets/instagram.png';
 import tiktok from '../assets/tiktok.png';
 import youtube from '../assets/youtube.png';
-
+ 
 function footer() {
     return (
         <div className="footer">
             <h3 className="socials"></h3>
-            <img src={facebook} className="icons"></img>
-            <img src={twitter} className="icons"></img>
-            <img src={instagram} className="icons"></img>
-            <img src={tiktok} className="icons"></img>
-            <img src={youtube} className="icons"></img>
+            <a target="_blank" href="https://www.facebook.com/MavMediaUTA">
+              <img src={facebook} className="icon1" />
+            </a>
+            <a target="_blank" href= "https://twitter.com/mavmediauta?t=qF9o35yE5nFbLSn9Z0cqJA&s=09">
+              <img src={twitter} className="icon2" />
+            </a>
+            <a target="_blank" href= "https://instagram.com/mavmediauta?igshid=YmMyMTA2M2Y=">
+              <img src={instagram} className="icon3" />
+            </a>
+            <a target="_blank" href= "https://www.tiktok.com/@MavMediaUTA">
+              <img src={tiktok} className="icon4" />
+            </a>
+            <a target="_blank" href= "https://www.youtube.com/channel/UC2i67p4NCf2Hgvq8eE1lJIw" rel="noreferrer">
+              <img src={youtube} className="icon5" />
+            </a>
         </div>
+        
     )
 }
+
 
 export default footer

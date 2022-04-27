@@ -10,10 +10,30 @@
     bottom: 0;
     width: 100%;
     height: 40px;
-    background-color: var(--primary)
+    background-color: rgba(0,0,0,0.6);
 }
 
-.icons{
+.icon1{
+    width: 40px;
+    height: 40px;
+}
+
+.icon2{
+    width: 40px;
+    height: 40px;
+}
+
+.icon3{
+    width: 40px;
+    height: 40px;
+}
+
+.icon4{
+    width: 40px;
+    height: 40px;
+}
+
+.icon5{
     width: 40px;
     height: 40px;
 }

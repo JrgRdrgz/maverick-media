@@ -1,3 +1,12 @@
+.infoHeader {
+    color: white;
+    align-self: flex-start;
+}
+
+.infoText {
+    text-align-last: left;
+}
+
 .lofi{
     color: white;
     margin-top: 250px;
@@ -8,38 +17,95 @@
     text-transform: uppercase;
     letter-spacing: 3px;
 }
-
-.contact-form{
-    color: white;
+.contactContainer{
+    position: relative;
+    min-height: 100%;
+    padding: 50px 100px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    border: 5px solid var(--secondary);
-    border-radius: 8px;
-    margin: 0 auto;
-    width: 50%;
-    padding: 20px;
-    background: rgba(0, 0, 0, .7);
-    box-shadow: 0px 0px 20px var(--primary);
+    align-items: center;
+    flex-direction: row;
 }
 
-.form{
+.contactContainer .container{
     width: 100%;
-    margin-top: 15px;
-    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.contactContainer .container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactContainer .container .contactInfo .infoblock{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    color: #fff;
+}
+
+.contactContainer .container .contactInfo .infoblock .icon{
+    min-width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+    color:#212121;
+}
+
+.contactContainer .container .contactInfo .infoblock .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color:#fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.contactContainer .container .contactInfo .infoblock .text h3{
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+.contact-form{
+    width: 60%;
+    padding: 40px;
+    background: white;
+}
+
+.contact-form .form{
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
 }
 
 .form input,
 .form textarea{
     width: 100%;
-    padding: 10px;
-    font-size: 18px;
-    margin-top: 5px;
+    padding: 5px 0;
+    margin: 10px 0;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+    align-items: flex-start;
 }
 
+
 textarea{
-    resize: vertical;
-}
+     resize: vertical; 
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+} 
 
 button[type="submit"]{
     width: 100%;
@@ -50,7 +116,7 @@ button[type="submit"]{
     border-radius: 8px;
     margin-top: 10px;
     cursor: pointer;
-    color: var(--secondary);
+    color: #00bcd4;
     font-weight: 1000;
     transition: .3s ease background-color;
     background-color: #212121;
@@ -58,5 +124,14 @@ button[type="submit"]{
 }
 
 button[type="submit"]:hover{
-    background-color: var(--primary);
+    background-color: #333;
+}
+
+
+.contact-header {
+    text-align-last: left;
+}
+
+.contact-label {
+    text-align-last: left;
 }

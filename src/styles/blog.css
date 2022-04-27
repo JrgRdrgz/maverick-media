@@ -1,0 +1,118 @@
+@import '~antd/dist/antd.css';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxing;
+}
+
+.event .header-text{
+    padding: 4rem 0;
+}
+
+.event .header-text h2{
+    font-size: 4.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.4;
+
+}
+
+.event .event-section{
+    text-align: -webkit-center;
+}
+
+.event .event-content{
+    margin: 2rem 1.2rem;
+    width: 50rem;
+    position: relative;
+
+}
+
+.event-content .event-image{
+    overflow: hidden;
+}
+
+.event-content .event-image img{
+    width: 115%;
+    transition: all .5s;
+}
+
+.event-content .event-image img:hover {
+    transform: scale(1.2);
+    filter: brightness(.8);
+}
+
+.event .content-text{
+    width: 38rem;
+    padding: 2.5rem;
+    box-shadow: 0 6rem 4rem -1rem rgba(122, 122, 122, 0.295);
+    background: rgba(255, 255, 255, 0.874);
+    position: absolute;
+    top: 3.22rem;
+    right: 4rem;
+
+}
+
+.content-text .event-menu h4{
+    font-size: 4.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #182731;
+    line-height: 1.2;
+    text-align: start;
+}
+
+.content-text .event-menu h4::after{
+    content: " ";
+    display: block;
+    width: 16rem;
+    height: 4px;
+    background: #00bcd4;
+}
+
+.event-menu .event-detail{
+    margin: 1.2rem 0;
+    list-style-type: none;
+}
+
+.event-menu .event-detail .event-time{
+    text-align: -webkit-left;
+}
+
+
+.event-menu .event-detail .event-location{
+    text-align: -webkit-left;
+    
+}
+
+.event-menu .event-detail .event-room{
+    text-align: -webkit-left;
+}
+
+.event-text{
+    text-align: -webkit-left;
+}
+
+.content-text .btn {
+    margin: 3.5rem 0;
+}
+
+.content-text .btn a:link, 
+.content-text .btn a:visited{
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding: 1.4rem 2.7rem;
+    border-radius: 2px;
+    color: #fff;
+    background: #00bcd4;
+    transition: all .5s;
+
+}
+
+.content-text .btn a:hover{
+    letter-spacing: 2px;
+    background: #00bcd4;
+
+}

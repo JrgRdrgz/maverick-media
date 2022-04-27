@@ -7,6 +7,7 @@ import Media from './pages/media';
 import About from './pages/about';
 import Contact from './pages/contact';
 import Footer from './pages/footer';
+import Blog from './pages/blog';
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="media" element={<Media/>}/>
           <Route path="about" element={<About/>}/>
           <Route path="contact" element={<Contact/>}/>
+          <Route path="blog" element={<Blog/>}/>
         </Routes>
         <Footer/>
       </Router>
