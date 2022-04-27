@@ -53,7 +53,7 @@ function blog() {
                 <div className='event-section'>
                     <div className = "event-content">
                         <div className = "event-image"> 
-                            <img src = "image.jpg" alt= "event photo"></img>
+                            <img src = "im.png.png" alt= "event photo"></img>
                         </div>
                         <div className = "content-text">
                             <div className = "event-menu">
@@ -79,7 +79,7 @@ function blog() {
                 <div className='event-section'>
                     <div className = "event-content">
                         <div className = "event-image"> 
-                            <img src = "img.jpg" alt= "event photo"></img>
+                            <img src = "im.png.png" alt= "event photo"></img>
                         </div>
                         <div className = "content-text">
                             <div className = "event-menu">
